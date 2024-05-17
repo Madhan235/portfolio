@@ -12,10 +12,12 @@ export default function Navbar() {
           Madhan (mern)
         </p>
       </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+      <div className="m-8 flex items-center justify-center gap-4 text-2xl min-w-fit ">
 
-      <FaLinkedin />
-      <FaGithub />
+      <a href="https://github.com/Madhan235?tab=repositories" target="_blank"><FaGithub /></a>
+
+      <a href="https://www.linkedin.com/mynetwork/" target="_blank"><FaLinkedin /></a>
+       
       <a href="https://www.guvi.in/code-kata/" target="_blank" >
       <img src={guvi} alt="guvilogo" className="h-8 w-8"/>
       </a>

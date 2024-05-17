@@ -21,10 +21,10 @@ import Technologies from "./components/Technologies"
 
      <Navbar/> 
      <Hero/>
-     <About/>
+     <Projects/>
      <Technologies/>
      <Experience/>
-     <Projects/>
+     <About/>
      <Contact/>
         </div>
      </div>
