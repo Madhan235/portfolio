@@ -27,6 +27,7 @@ export const PROJECTS = [
   {
     title: "Blog Website",
     image: project1,
+    url:"https://mern-blog-8icy.onrender.com/",
     description:
     
     "A role-based accessible page for admins, preferred themes with light and dark modes, and a blog post website for users with features such as adding posts, comments, and likes to comments. Additionally, user authentication with OAuth (Google) including the option to change profile pictures.",
@@ -35,6 +36,7 @@ export const PROJECTS = [
   {
     title: "Chat App",
     image: project2,
+    url:"https://chat-app-2vp8.onrender.com/login",
     description:
     "An application for chatting with all users implemented using socket.io with the MERN stack. When a user receives a notification online, a notification sound will play.",
     technologies: [ "React", "Node.js", "MongoDB","Tailwind"],
@@ -42,6 +44,7 @@ export const PROJECTS = [
   {
     title: "Article Website",
     image: project3,
+    url:"https://catalog23.netlify.app/home_about_oil_price",
     description:
     "A social awareness website implemented with Chart.js, focusing on mobile addiction among kids, drug addiction, and addiction to junk and sugary foods.",
     technologies: [ "React", "Node.js", "MongoDB","Css","Bootstrap"],
