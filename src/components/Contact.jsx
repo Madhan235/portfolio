@@ -17,7 +17,7 @@ export default function Contact() {
     const { user_name, user_email, message } = formData;
 
     if (!user_name || !user_email || !message) {
-      console.log("failed");
+       
         toast.error("Please fill out all fields");
         return;
     }
@@ -30,6 +30,7 @@ export default function Contact() {
       })
       .then(
         () => {
+          console.log("33",e.target)
           setFormData({
             user_name: "",
             user_email: "",
@@ -50,7 +51,7 @@ export default function Contact() {
       [name]: value,
     }));
   };
-
+ 
   return (
     <>
       <div className="border-b border-neutral-900 pb-20">
