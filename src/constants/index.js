@@ -52,6 +52,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  phoneNo: "8668152066",
+ 
   email: "madhanofficialmern@gmail.com",
 };

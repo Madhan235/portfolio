@@ -25,7 +25,7 @@ export default function Hero() {
             bg-gradient-to-r from-pink-300 via-indigo-500 to-purple-500 bg-clip-text text-transparent
             "
             >
-              Madhan R
+              Hi, i'm Madhan R
             </motion.h1>
 
             <motion.span
