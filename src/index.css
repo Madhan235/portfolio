@@ -10,6 +10,6 @@
 }
 
 body{
-    background-color: black;
+    background-color: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
 }
  
