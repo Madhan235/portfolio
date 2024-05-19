@@ -76,7 +76,7 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="text-center flex justify-center align-center">
+      <div className="mb-20 text-center flex justify-center align-center">
         <form
           onSubmit={sendEmail}
           className="flex flex-col gap-2 w-[80%] lg:w-1/3 "
