@@ -21,8 +21,8 @@ export default function Hero() {
                 variants={container(0)}
                 initial="hidden"
                 animate="visible"
-              className="pb-16 text-5xl font-thin tracking-tight lg:mt-16 lg:text-7xl  
-            bg-gradient-to-r from-pink-300 via-indigo-500 to-purple-500 bg-clip-text text-transparent
+              className="pb-16 text-5xl tracking-tight lg:mt-16 lg:text-7xl  
+            bg-gradient-to-r from-pink-300   to-purple-500 bg-clip-text text-transparent
             "
             >
               Hi, i'm Madhan R
@@ -44,7 +44,9 @@ export default function Hero() {
           "
             >
               {HERO_CONTENT}
+              <span>, Click on <a href="https://docs.google.com/document/d/163wcwRhfb6bnLGk9rk6Dd2leSvcswdjzu6esDQF0c6A/edit?usp=sharing" target="_blank"   className="bg-gradient-to-r from-pink-300 to-purple-500 text-transparent bg-clip-text">Resume</a> to visit </span>
             </motion.p>
+             
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">

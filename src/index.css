@@ -13,3 +13,14 @@ body{
     background-color: #3a1d86;
 }
  
+ /* Custom CSS */
+.custom-shadow {
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2); /* Initial shadow */
+   box-shadow: 0  rgb(0, 63, 100, 0.2) ;
+  }
+  
+  .custom-shadow:hover {
+    box-shadow: 0 8px 8px rgba(255, 255, 255, 0.5); /* White shadow on hover */
+  }
+  
+  
