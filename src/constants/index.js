@@ -1,6 +1,8 @@
+ 
 import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.png";
+import project4 from "../assets/projects/project4.png";
  
 
 export const HERO_CONTENT = `I am a passionate full-stack developer (MERN stack) with a knack for crafting robust and scalable web applications. I am a certified Guvi (IITM) developer with hands-on experience in project-based curriculum`;
@@ -24,6 +26,15 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+
+  {
+    title:"Madhan Estate",
+    image: project4,
+    url:"https://mern-estate-tvvm.onrender.com/",
+    githubUrl:"https://github.com/Madhan235/mern-estate",
+    description:"Madhan Estate is a full-stack real estate web application designed to streamline the property buying, selling, and renting process. Built using the MERN stack, this application offers a seamless search and efficient platform for users to browse, list, and manage real estate properties. The application integrates Firebase for secure OAuth authentication, providing a smooth and secure user login experience.",
+    technologies:["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind.css"]
+  },
   {
     title: "Blog Website",
     image: project1,
