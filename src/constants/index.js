@@ -2,7 +2,7 @@ import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.png";
 import project4 from "../assets/projects/project4.png";
-import project5 from "../assets/projects/project4.png";
+import project5 from "../assets/projects/project5.png";
 
 export const HERO_CONTENT = `I am a passionate full-stack developer (MERN stack) with a knack for crafting robust and scalable web applications. I am a certified Guvi (IITM) developer with hands-on experience in project-based curriculum`;
 
@@ -45,7 +45,7 @@ export const PROJECTS = [
     url: "https://threads-y867.onrender.com",
     githubUrl: "https://github.com/Madhan235/threads",
     description:
-      "A Social media site , where user can , post images, get likes and comments from other users, follow others, get followers, chat with other user with real time communication implemented with socket.io and much more to come",
+      "A dynamic social media platform where you can share your favorite images, receive likes and comments from a thriving community, follow and connect with others, and grow your own following. Enjoy real-time chat with friends and followers, powered by socket.io, ensuring instant and seamless communication. And that's just the beginning—exciting new features are on the way",
     technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "chakraUI"],
   },
 
