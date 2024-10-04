@@ -1,9 +1,7 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa6";
-import guvi from '../assets/guvilogo.png'
- 
+import guvi from "../assets/guvilogo.png";
 
 export default function Navbar() {
-  
   return (
     <nav className="mb-20 flex items-center justify-between py-6 border-b-2">
       <div className="flex flex-shrink-0 items-center">
@@ -15,16 +13,20 @@ export default function Navbar() {
         </p>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl min-w-fit ">
+        <a href="https://github.com/Madhan235?tab=repositories" target="_blank">
+          <FaGithub />
+        </a>
 
-         
+        <a
+          href="https://www.linkedin.com/in/madhan-r-mernofficial/"
+          target="_blank"
+        >
+          <FaLinkedin />
+        </a>
 
-      <a href="https://github.com/Madhan235?tab=repositories" target="_blank"><FaGithub /></a>
-
-      <a href="https://www.linkedin.com/mynetwork/" target="_blank"><FaLinkedin /></a>
-       
-      <a href="https://www.guvi.in/code-kata/" target="_blank" >
-      <img src={guvi} alt="guvilogo" className="h-8 w-8"/>
-      </a>
+        <a href="https://www.guvi.in/code-kata/" target="_blank">
+          <img src={guvi} alt="guvilogo" className="h-8 w-8" />
+        </a>
       </div>
     </nav>
   );
